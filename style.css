@@ -17,7 +17,7 @@ body {
     
 }
 .item{
-    border: 15px solid #fff;
+    border: 5px solid #fff;
     padding-bottom: 200px;
     background-color: #fff;
     border-radius: 20px;
@@ -27,7 +27,7 @@ body {
 }
 
 .texto-1{
-    font-size: 25px;
+    font-size: 20px;
     color: hsl(218, 44%, 22%);
     font-weight: bold;
 }
