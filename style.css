@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Condensed:wght@300;400&display=swap');
-
 body {
     background: hsl(212, 45%, 89%);
-}
-
-.container {
+    font-family: 'Outfit', sans-serif;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .img{
     height: 300px;
     width: auto;
     border-radius: 20px;
+    width: 100%;
+
     
 }
 .item{
@@ -22,19 +21,11 @@ body {
     padding-bottom: 200px;
     background-color: #fff;
     border-radius: 20px;
+    max-width: 280px;
+    text-align: center;
+    padding: 15px 15px 30px;
 }
 
-.texto{
-    position: absolute;
-  top: 67%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  
-  font-family: Outfit;
- 
-  
-}
 .texto-1{
     font-size: 25px;
     color: hsl(218, 44%, 22%);
